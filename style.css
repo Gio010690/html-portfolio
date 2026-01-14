@@ -5,6 +5,7 @@ h1 {
 img {
     height: 200px;
     width: 200px;
+}
 ol {
   margin-left: -40px;
   margin-top: -20px;
@@ -15,5 +16,6 @@ p {
     color: blue;
 
 }
+
 
 
