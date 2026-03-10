@@ -10,6 +10,45 @@
             color: darkgreen;
             background-color: blue;
           }
+
+     .container {
+      color: white;
+      border: 5px solid gold;
+      display: inline-flex;
+      flex-direction: column;
+    }
+
+        .container > * {
+      flex-basis: 100px;
+    }
+
+    .red {
+      background-color: #eb4d4b;
+    }
+
+    .orange {
+      background-color: #f0932b;
+    }
+
+    .yellow {
+      background-color: #f6e58d;
+    }
+
+    .green {
+      background-color: #6ab04c;
+    }
+
+    .blue {
+      background-color: #4834d4;
+    }
+
+    .indigo {
+      background-color: #30336b;
+    }
+
+    .purple {
+      background-color: #be2edd;
+    }
     </style>
 </head>
 
@@ -25,6 +64,16 @@
     <a href="./public/about.html">About Me</a>
     <a href="./public/contact.html">Contact Me</a>
     <p>A person who is curious in web development creation </p>
+
+     <div class="container">
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
+  </div>
 </body>
 
 </html>
